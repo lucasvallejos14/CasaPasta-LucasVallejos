@@ -1,0 +1,1124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(https://images.pexels.com/photos/6287575/pexels-photo-6287575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    height: 30rem;
+    border-radius: 50%;
+} 
+
+
+.logo:hover{
+    border:0.2rem solid #852626;
+}
+.navbar{
+    background-color: #ffe3c2;
+    border-radius: 50%;
+
+}
+
+.navbar-nav{
+    font-size: 4rem ;
+    column-gap: 3rem;
+    
+}
+.nav-link{
+    border-radius: 50%;
+}
+.nav-link:hover{
+    background-color: #852626;
+    border-color: black;
+    border: 0.2rem solid;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+main{ 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width:100%;
+    height: 74rem;
+    margin-top: 50rem;
+    column-gap: 30rem ;
+    background-color: #ffe3c2;
+}
+.section1{
+    align-items: center;
+    flex-direction: column;
+    
+    
+}   
+
+.div__titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    width: 50rem;
+    align-items: center;
+    font-size: 7rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    
+}
+.div__titulo:hover{
+    animation: escala 4s linear;
+ 
+}   
+@keyframes escala{
+    0%{-webkit-transform: scale(1.0);
+    transform: scale(1.1) }
+
+    100%{-webkit-transform: scale(1.1);
+        transform: scale(1.1);}
+}
+.div__titulo h1{
+    text-shadow: 0.1rem 0.1rem 0.5rem rgb(122, 100, 100);
+    font-size: 6rem;
+    
+}
+.div__titulo hr {
+    width: 18rem;
+
+}
+
+.div__subtitulo{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    font-size: 4rem;
+    text-shadow: 0.2rem 0.1rem 0.5rem rgba(209, 197, 197, 0.946);
+    transition: background 1s;
+}
+.div__subtitulo:hover{
+    background:#872424 ;
+    border-radius: 50%;
+    text-shadow: 0.2rem 0.1rem 0.5rem rgba(209, 197, 197, 0.946);
+    font-size: 5rem;
+    margin-left: 4rem;
+   
+    
+}
+
+
+.section2{
+    margin-top: 0.5em;
+    width: 100rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr ;
+    grid-template-rows: 1fr 2fr 1fr 2fr ;
+    grid-template-areas: "img_1 img_3 img_3 img_3"
+                         "img_1 img_3 img_3 img_3"
+                         "img_4 img_4 img_2 img_2"
+                         "img_4 img_4 img_2 img_2";
+    
+    gap: 1rem;                    
+}
+
+
+.img_1{ 
+    grid-area: img_1;
+   transition: transform 2s;
+}
+.img_1:hover{
+    transform: translate(-20rem);
+    
+}
+.img_2{ grid-area: img_2;
+        transition: transform 2s;
+}
+.img_2:hover{
+    transform: translateY(20rem);
+}
+.img_3{ grid-area: img_3;
+        transition: transform 2s;
+}
+.img_3:hover{
+    transform: translateY(-20rem);
+}
+.img_4{ grid-area: img_4;
+        transition: transform 2s;
+}
+.img_4:hover{
+    transform: translate(-20rem, 20rem);
+    
+    
+}
+.caja_footer{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0;
+    background-color: #ffe3c2;
+
+}   
+.footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+} 
+.boton_arriba{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.iconInsta{
+    width:6rem;
+    height:6rem;
+}
+
+.iconTwitter{
+    width: 6rem;
+    height: 6rem;
+   
+}   
+.iconFacebook{
+    width: 6rem;
+    height: 6rem;
+    
+}
+.iconOutlook{
+    width: 6rem;
+    height: 6rem;
+    
+}
+
+.copy{
+   width: 100%;
+   height: 2rem;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-family: 'Segoe UI';
+   background-color: #ffe3c2 ;
+}
+    h5 {
+        margin: 0;
+}
+
+strong{
+    color:rgb(133, 38, 38);
+   
+}
+
+.img-complemento{
+    border-top: 2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffe3c2;
+    background-image: url(https://images.pexels.com/photos/2697229/pexels-photo-2697229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100% 100%;
+}
+
+
+.chefs{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "titulo_chefs titulo_chefs titulo_chefs"
+    " chef1       chef2        chef3";
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 0;
+    
+}
+.titulo_chefs{
+    grid-area: titulo_chefs;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+.chefs h1{
+    font-size: 4rem;
+    color: rgb(255, 255, 253);
+    text-shadow: 0.2rem 0.5rem 0.7rem black;
+    
+
+}
+.chefs h2{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 253);
+    text-shadow: 0.2rem 0.5rem 0.7rem black;
+    margin-top: 1rem;
+    
+
+}
+.chef1{
+    grid-area: chef1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-shadow: 0.1rem 0.1rem 0.4rem white;
+    font-size: 1.5rem;
+
+}
+.chef2{
+    grid-area: chef2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-shadow: 0.1rem 0.1rem 0.4rem white;
+    font-size: 1.5rem;
+}
+.chef3{
+    grid-area: chef3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-shadow: 0.1rem 0.1rem 0.4rem white;
+    font-size: 1.5rem;
+}
+
+.imgchefs{
+    width: 25rem;
+    height: 25rem;
+    text-shadow: 0.1rem 0.1rem 0.4rem white;
+   
+}
+.imgchefs:hover{
+    animation: imagen 1s linear;
+    transition-duration: transform 1s;
+}   
+@keyframes imagen{
+    0%{-webkit-transform: scale(1.0);
+    transform: scale(1.1); }
+
+    100%{-webkit-transform: scale(1.1);
+        transform: scale(1.1) ;}
+}
+
+
+
+
+
+  /** NOSOTROS**/
+
+
+.body_nosotros{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+   
+    background: url(../imagenes/fondopastas2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.main_nosotros{
+    width: 100%;
+    height: 50%;
+    margin: 0%;
+    bottom: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    background: transparent;
+}
+
+    
+.main_nosotros_titulo{
+    display: flex;
+    height: 100rem;
+    margin:0%;
+    padding: 0% 2rem;
+    justify-content:center;
+    row-gap: 2rem;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_nosotros_titulo h1{
+    font-size: 6rem;
+    color: rgb(239, 237, 237);
+    text-shadow: 1rem 0.3rem 0.7rem rgb(107, 105, 105);
+    width: 100%;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+}
+    
+.main_nosotros_titulo p{
+    font-size: 3rem;
+    color: rgb(239, 237, 237);
+    text-shadow: 1rem 0.3rem 0.7rem rgb(107, 105, 105);
+    width: 100%;
+    height: 20rem;
+    margin-top: 30rem;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    background: transparent;
+}    
+
+
+
+
+.section_nosotros{
+    width: 100%;
+    height: 100%;
+}
+.section_nosotros img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/** La Cucina**/
+
+
+
+
+
+
+
+
+
+.main_cucina{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    margin-top: 10rem;
+    background: transparent;
+    margin-bottom: 10rem;
+}
+    
+.body_cucina{
+    background: url(../imagenes/fondococina.jpg);
+    background-repeat: repeat;
+
+}
+
+.img_menu_cucina{
+    box-shadow:1rem 0.3rem 0.7rem rgb(107, 105, 105) ;
+}
+
+
+
+
+/**Ustedes**/
+
+
+
+
+
+
+.body_ustedes{
+    background:url(../imagenes/fondoustedess.jpg);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+.carousel-item{
+    width: 50vw;
+    height: 60vh;
+}
+
+.imagenescarousel{
+    width: 50vh;
+    height: 60vh;
+}
+
+
+.titulo_ustedes{
+    text-align: center;
+    padding: 2.5rem 0;
+    margin-top: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-color: #e7dac2;
+    font-size: 4rem;
+    font-family: sans-serif rgb(239, 237, 237);
+    text-shadow: 1rem 0.3rem 0.7rem rgb(107, 105, 105);}
+
+
+
+
+.main_ustedes{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    
+    background: transparent;
+    
+}
+
+
+
+
+
+/**Contacto**/
+
+
+
+
+
+.body_contacto{
+    background: url(../imagenes/fondocontacto.jpg);
+}
+.main_contacto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: transparent;
+    margin: 0%;
+}
+.cajitaformulario{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+form{
+    width:50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    background-color:rgb(133, 38, 38) ;
+    border-radius: 0.3rem;
+    color: black;
+    font-size: 1rem;
+    
+    border-color: black;
+    border: 0.4rem solid black;
+}
+
+input textarea{
+    border: 0;
+    outline: none;
+
+    width: 28rem;
+}
+
+.field{
+    border: solid 0.5rem black;
+    padding: 1rem;
+
+    
+}
+label{ 
+    font-size: 3rem;
+}
+
+.field:focus{
+    border-color: rgb(219, 203, 54);
+}
+
+.center-content{
+    text-align: center;
+   
+}
+form p{
+    color: black;
+}
+.btn{
+    background-color: rgb(133, 38, 38);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**media   min-width= desde// max-width= hasta**/
+
+
+
+
+@media (min-width: 990px) and (max-width: 1200px){
+
+    .navbar-nav {
+        font-size: 3rem;
+        column-gap: 3rem;}
+    .logo{
+        height: 30rem;
+        border-radius: 50%;}    
+        
+    .logo:hover{
+        border:0.2rem solid #852626;}
+    .navbar{
+        background-color: #ffe3c2;
+        border-radius: 50%;}
+        
+       
+}
+
+@media (min-width:270px) and (max-width:990px){
+    .carousel-item{
+        width: 70vw;
+        height: 70vh;
+    }
+    .carousel-inner{
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenescarousel{
+        width: 70vh;
+        height: 70vh;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width:270px) and (max-width:990px){
+   
+   /**Index**/
+   
+   
+   
+    *{
+        margin: 0%;
+        padding: 0%;}
+    html{
+        font-size: 62.5%;}
+    body{
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        background: url(https://images.pexels.com/photos/35661/pasta-cheese-egg-food.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size:100% 100%;
+        background-repeat: no-repeat;}
+    
+
+
+    .logo{
+        height: 20rem;
+        border-radius: 50%;}
+        
+    
+    
+    main{ 
+        display: flex;
+        margin: 0%;
+        width:100%;
+        height: 74rem;
+        margin-top: 20rem;
+        column-gap: 20rem ;
+        background-color: #ffe3c2;
+        justify-content: center;}
+    .section1{
+        width: auto;
+        height:auto;
+        margin:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;}   
+    
+    .div__titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 10rem;
+        width: 40rem;
+        align-items: center;
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-left: 0%;}
+
+    .div__titulo h1{
+        text-shadow: 0.1rem 0.1rem 0.5rem rgb(122, 100, 100);}
+    
+        .div__titulo hr {
+        width: 10rem;}
+    
+    .div__subtitulo{
+        height: 20rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10rem;
+        margin-left: 0.1rem;
+        border-radius: 30%;
+        font-size: x-large;
+        transition: background 1s;}
+
+    .div__subtitulo:hover{
+        background:#872424 ;
+        border-radius: 30%;
+        text-shadow: 0.2rem 0.1rem 0.5rem rgba(209, 197, 197, 0.946);
+        font-size: x-large;
+        margin-left: 0.1rem;}
+    
+    
+    .section2{
+        margin-top: 0.5em;
+        width: 100rem;
+        height: auto;
+        display: none;
+        background:transparent ;}
+    
+    
+    .caja_footer{
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        bottom: 0;
+        background-color: #ffe3c2;}  
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;} 
+    
+    .boton_arriba{
+        position: absolute;
+        display: none;
+        justify-content: center;
+        align-items: center;}
+    
+    .iconInsta{
+        width:6rem;
+        height:6rem;}
+    
+    .iconTwitter{
+        width: 6rem;
+        height: 6rem;} 
+
+    .iconFacebook{
+        width: 6rem;
+        height: 6rem;}
+
+    .iconOutlook{
+        width: 6rem;
+        height: 6rem;}
+
+    
+    .copy{
+        top: 0;
+       width: 100%;
+       height: 2rem;
+       position: relative;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       font-family: 'Segoe UI';
+       background-color: #ffe3c2;}
+
+        h5 {
+            margin: 0;}
+    
+    strong{
+        color:rgb(133, 38, 38);}
+    
+    .img-complemento{
+        border-top: 2rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ffe3c2;
+        background-image:  url(https://images.pexels.com/photos/6605193/pexels-photo-6605193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: 100% 100%;
+    background-repeat: no-repeat;}
+    
+    
+    .chefs{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        position: absolute;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "titulo_chefs"
+        " chef1"
+        "chef2"        
+        "chef3";
+        align-items: center;
+        
+        margin-top: 0;}
+
+    .titulo_chefs{
+        grid-area: titulo_chefs;
+        width: 100%;
+        height: 4rem;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 0;}
+
+
+    .chefs h1{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 253);
+        text-shadow: 0.2rem 0.5rem 0.7rem black;}
+
+    .chefs h2{
+        font-size: 1.5rem;
+        color: rgb(255, 255, 253);
+        text-shadow: 0.2rem 0.5rem 0.7rem black;
+        margin-top: 1rem;}
+
+
+    .chef1{
+        grid-area: chef1;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0.1rem 0.1rem 0.4rem white;
+        font-size: 1.5rem;}
+
+    .chef2{
+        grid-area: chef2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+        align-items: center;
+        text-shadow: 0.1rem 0.1rem 0.4rem white;
+        font-size: 1.5rem;}
+
+
+    .chef3{
+        grid-area: chef3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        align-items: center;
+        text-shadow: 0.1rem 0.1rem 0.4rem white;
+        font-size: 1.5rem;}
+
+    
+    .imgchefs{
+        width: 22rem;
+        height: 22rem;
+        text-shadow: 0.1rem 0.1rem 0.4rem white;}
+
+
+
+
+
+    /**NOSOTROS**/    
+    
+
+
+
+    .body_nosotros{
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        background: url(https://img.freepik.com/foto-gratis/disparo-vertical-pasta-verduras-e-ingredientes-sobre-mesa-blanca_181624-41804.jpg?w=740&t=st=1654020723~exp=1654021323~hmac=a71e9127f690ab24699d0aa455c7b5f74d247939e6b8abe4479311df40e94879)
+        ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;}
+
+
+    .main_nosotros{
+        width: 100%;
+        height: 50%;
+        margin: 0%;
+        bottom: 0;
+        position: relative;
+        background: transparent;}
+    
+        
+    .main_nosotros_titulo{
+        display: flex;
+        height: 100rem;
+        margin:0%;
+        padding: 0% 2rem;
+        justify-content:center;
+        row-gap: 2rem;
+        
+        align-items: center;
+        flex-direction: column;}
+    
+    .main_nosotros_titulo h1{
+        font-size: 6rem;
+        color: rgb(239, 237, 237);
+        text-shadow: 1rem 0.3rem 0.7rem rgb(107, 105, 105);
+        width: 100%;
+        height: 20rem;
+        margin: top 0; ;
+        justify-content: center;
+        align-items: center;
+        text-align:center ;}
+        
+    .main_nosotros_titulo p{
+        font-size: 3rem;
+        color: rgb(239, 237, 237);
+        text-shadow: 1rem 0.3rem 0.7rem rgb(107, 105, 105);
+        width: 100%;
+        height: 15rem;
+        margin-bottom: 14rem;
+        justify-content: center;
+        align-items: center;
+        text-align:center ;
+    }    
+    br{display: none;}
+
+    .section_nosotros{
+        width: 100%;
+        height: 100%;}
+    .section_nosotros img{
+        width: 100%;
+        height: 100%;}
+
+
+
+
+
+
+
+    /**La Cucina**/    
+    
+    
+    
+    
+    
+    
+    .main_cucina{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        align-items: center;}
+    .body_cucina{
+        background: url(../imagenes/fondococina.jpg);}
+
+
+
+
+
+
+    /**Ustedes**/
+    
+    
+
+
+
+    .body_ustedes{
+        background: url(../imagenes/fondoustedess.jpg);
+        background-size: 100% 100%;
+        background-repeat: repeat;
+    }
+
+    .titulo_ustedes{
+        text-align: center;
+        padding: 2.5rem 0;
+        margin-top: 10rem;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-decoration: underline;
+        text-decoration-color: #e7dac2;
+        font-size: 4rem;
+        font-family: sans-serif rgb(239, 237, 237);
+        text-shadow: 1rem 0.3rem 0.7rem rgb(107, 105, 105);}
+    
+
+    
+    
+    
+    .main_ustedes{
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        background: transparent;}
+        
+        
+    .boton_arriba_ustedes{
+        display: none;}
+
+
+
+
+}    
+
+
+
+
+@media screen and (min-width:1200px) and (max-width:1650) {
+    
+    main{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-column: 1fr 1fr;
+        grid-row: 1fr 1fr;
+        column-gap: 0;
+    }
+    .section2{
+        margin-top: 0.5em;
+        width: 100rem;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-areas: "img_1"
+                             "img_2"
+                             "img_3"
+                             "img_4";
+        column-gap: 0;
+                          
+    }
+    
+    
+    .img_1{ 
+        grid-area: img_1;
+       transition: none;
+    }
+    .img_1:hover{
+        display: none;
+        transform: translate(-20rem);
+        
+    }
+    .img_2{ grid-area: img_2;
+        transition: none;
+    }
+    .img_2:hover{
+        display: none;
+        transform: translateY(20rem);
+    }
+    .img_3{ grid-area: img_3;
+        transition: none;
+    }
+    .img_3:hover{
+        display: none;
+        transform: translateY(-20rem);
+    }
+    .img_4{ grid-area: img_4;
+        transition: none;
+    }
+    .img_4:hover{
+        display: none;
+        transform: translate(-20rem, 20rem);
+        
+        
+    }
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+ 
