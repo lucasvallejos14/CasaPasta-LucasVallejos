@@ -27,7 +27,8 @@ body{
     border:0.2rem solid #852626;
 }
 .navbar{
-    background-color: #ffe3c2;
+    background: rgb(255,227,194);
+    background: radial-gradient(circle, rgba(255,227,194,1) 25%, rgba(43,39,35,1) 50%, rgba(255,227,194,1) 75%);
     border-radius: 50%;
 
 }
@@ -622,7 +623,7 @@ form p{
 
 
 @media (min-width: 990px) and (max-width: 1200px){
-
+    
     .navbar-nav {
         font-size: 3rem;
         column-gap: 3rem;}
