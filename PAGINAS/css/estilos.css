@@ -28,7 +28,7 @@ body{
 }
 .navbar{
     background: rgb(255,227,194);
-    background: radial-gradient(circle, rgba(255,227,194,1) 25%, rgba(43,39,35,1) 57%, rgba(255,227,194,1) 83%);
+    
     border-radius: 50%;
 
 }
